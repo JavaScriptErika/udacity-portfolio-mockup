@@ -15,17 +15,47 @@ a {
     color: #2d3c49;
 }
 
+.hero-section {
+    padding: 0 1.5rem
+}
+
 .featured-title {
     color: #7d97ad;
 }
 
 .logo-img {
-    width: 10%;
+    width: 70%;
 }
 
 .portfolio {
     margin-bottom: 10rem;
 }
-/* .hero {
-    text-align: center;
-} */
+
+.project img {
+    width: 90%
+}
+
+@media screen and (min-width: 768px) {
+    .logo-img {
+        width: 40%;
+    }
+
+    .project img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo-img {
+        width: 20%;
+    }
+    .project img {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo-img {
+        width: 10%;
+    }
+}
