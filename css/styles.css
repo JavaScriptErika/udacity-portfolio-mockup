@@ -1,6 +1,20 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 body {
-    background-color: #ccc;
     font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-color: #7d97ad;
+}
+
+.title,
+.subtitle {
+    color: #2d3c49;
+}
+
+.logo-img {
+    width: 15%;
 }
