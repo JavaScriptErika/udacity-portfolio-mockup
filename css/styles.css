@@ -1,5 +1,3 @@
-/* font-family: 'Open Sans', sans-serif; */
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -12,14 +10,22 @@ hr {
 }
 
 .title,
-.subtitle {
+.subtitle,
+a {
     color: #2d3c49;
 }
 
-.logo-img {
-    width: 15%;
+.featured-title {
+    color: #7d97ad;
 }
 
+.logo-img {
+    width: 10%;
+}
+
+.portfolio {
+    margin-bottom: 10rem;
+}
 /* .hero {
     text-align: center;
 } */
